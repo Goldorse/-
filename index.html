@@ -1,41 +1,977 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GoldHorse</title>
-    <style>  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一周年纪念</title>
+    <style>
       body {
+        height: 100vh;
         margin: 0;
+        background-color: #fbeded;
+      }
+      .flex {
+        display: flex;
+      }
+      .yinying {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .baise {
+        background-color: #f8dada;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .mg20 {
+        margin: 20px;
+      }
+      .mgr20 {
+        margin-right: 20px;
+      }
+      .mgt20 {
+        margin-top: 20px;
+      }
+      .daohang {
+        padding: 10px 20px;
+        border-bottom: 1px solid #999;
+        font-size: 16px;
+        color: #666;
+      }
+      .mgt100 {
+        margin-top: 100px;
+      }
+      .mgl20 {
+        margin-left: 30px;
+      }
+      .scroll-container {
+        width: 1000px;
+        overflow-x: auto; /* 只在水平方向上滚动 */
+        white-space: nowrap; /* 防止内容换行 */
+      }
+      .scroll-item {
+        display: inline-block;
+      }
+      .collor {
+        background-color: #f7bebe;
+      }
+      .wenzi {
+        font-size: 20px;
+        color: #666;
+      }
+      .wenbenkuang {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #999;
+        background-color: #fbeded;
+        border: 4px solid #d8c3c3;
+      }
+      .mgr90 {
+        margin-right: 90px;
+      }
+      .touwenzi {
+        text-shadow: 0px 5px 5px #f87e7e;
+        color: #ffffff;
+      }
+      .heart {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        margin: 20% auto auto;
+
+        &::before,
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          content: "";
+          background-color: #eb383b;
+          border-radius: 100%;
+        }
+
+        &::before {
+          transform: translateX(-50%);
+        }
+        &::after {
+          transform: translateY(-50%);
+        }
+
+        background-color: #f22f32;
+        transform: rotate(45deg);
       }
     </style>
   </head>
-  <body>
-    <div style="
-     background-color: #f1f1f1;
-     text-align: center;
-     padding: 40px;
-    ">
-     <img src="https://i.imgs.ovh/2025/02/12/dVG1.jpeg" alt="马启东" width="80px" hight="80"/>
+  <body class="flex">
+    <!--主区域-->
+    <div class="flex1 flex column">
+      <!--头部栏-->
+      <div style="height: 120px; z-index: 1" class="baise yinying">
+        <div
+          style="display: flex; justify-content: center"
+          class="mg20 touwenzi"
+        >
+          <h1>(●＾∀＾)⊃~~~~Hpp与Mdd的一周年纪念~~~~⊂(＾∀＾○)</h1>
+        </div>
+      </div>
+      <!--内容区域-->
+      <div style="overflow: auto" class="flex1 flex column">
+        <!--1行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7z1Y0.jpeg"
+                alt="7z1Y0.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7z31Y.jpeg"
+                alt="7z31Y.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7SlJC.jpeg"
+                alt="7SlJC.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Luux.jpeg"
+                alt="7Luux.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            2024年3月4日我们在一起了。<br />
+            没有费劲心机的追求，也没有轰轰烈烈的表白。<br />
+            一切都发生的就像两颗水滴慢慢靠近、相互融合般这么自然。<br />
+            <br />
+            过了几天心血来潮给你买了一束花，但你不太开心，原来是嫌弃太小了，哈哈哈哈。<br />
+          </div>
+        </div>
+        <!--2行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            当时我临近毕业，准备着复试与论文，每天在教室里自习。<br />
+            你会来教室陪我，给我一些论文的建议，与复试的准备。<br />
+            <br />
+            那时每天晚上都会去操场散步，每天都有说不完的话，聊到快到门禁，才依依不舍的送你到宿舍楼下。<br />
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7T54Y.jpeg"
+                alt="7T54Y.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <a href="https://imgloc.com/image/7TkZg"
+                ><img
+                  src="https://i.imgs.ovh/2025/02/21/7TkZg.jpeg"
+                  alt="7TkZg.jpeg"
+                  width="300px"
+                  height="300px"
+              /></a>
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7L3Oe.jpeg"
+                alt="7L3Oe.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Tqq0.jpeg"
+                alt="7Tqq0.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--3行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7T6ib.jpeg"
+                alt="7T6ib.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7S31c.jpeg"
+                alt="7S31c.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7T9BL.jpeg"
+                alt="7T9BL.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Tsnn.jpeg"
+                alt="7Tsnn.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TeV1.jpeg"
+                alt="7TeV1.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LwKh.jpeg"
+                alt="7LwKh.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LNka.jpeg"
+                alt="7LNka.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7ShGH.jpeg"
+                alt="7ShGH.jpeg"
+                width="400px"
+                height="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            到了快复试的日子，你陪我一起飞到了深圳参加复试。<br />
+            我们也进行了第一次虽然短暂、但也很开心的旅行。<br />
+            <br />
+            我们一起去了深大校园，也去了深圳湾，吃了很多好吃的。<br />
+            复试成绩出来后，你还给我买了鲜花，祝我金榜题名。
+          </div>
+        </div>
+        <!--4行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            回来后，我们更加珍惜临近毕业的时光，每天都在一起。<br />
+            <br />
+            一起去了动物园，一起去看了展，跟好朋友们打球，吃了好多好吃的。
+
+            <br />
+          </div>
+          <!--中区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7SmcU.jpeg"
+                alt="7SmcU.jpeg"
+                width="300px"
+                height="300px"
+              />
+
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TIaU.jpeg"
+                alt="7TIaU.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TGEQ.jpeg"
+                alt="7TGEQ.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Tt9N.jpeg"
+                alt="7Tt9N.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7T0Nq.jpeg"
+                alt="7T0Nq.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7SiLp.jpeg"
+                alt="7SiLp.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--5行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TEB4.jpeg"
+                alt="7TEB4.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Tobq.jpeg"
+                alt="7Tobq.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TcpU.jpeg"
+                alt="7TcpU.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            有一次吃寿喜烧我吃太多了，到了第二天还没消化，下午你给我做了水果捞。
+            晚上开始肚子疼，你陪我去了医院确诊了急性肠胃炎，打了吊针，熬到了夜里两三点。<br />
+
+            有朋友开玩笑说你在水果捞里面下毒了哈哈哈。<br />
+            我当然知道你没下毒，因为当时我实在是吃不下哈哈哈。
+          </div>
+        </div>
+        <!--6行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            我瞒着你偷偷做了一个小狗玩偶送给你，花了我好长时间哦~<br />
+            还买了一束花，这次买了一束大大的花；）<br />
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TarN.jpeg"
+                alt="7TarN.jpeg"
+                width="200px"
+                height="300px"
+              />
+
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7T2qe.jpeg"
+                alt="7T2qe.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TnZh.jpeg"
+                alt="7TnZh.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7L7mO.jpeg"
+                alt="7L7mO.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--7行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Lycd.jpeg"
+                alt="7Lycd.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7THEa.jpeg"
+                alt="7THEa.jpeg"
+                width="400px"
+                height="300px"
+              />
+
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TVxp.jpeg"
+                alt="7TVxp.jpeg"
+                width="225px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TB29.jpeg"
+                alt="7TB29.jpeg"
+                width="168.75px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Tu0F.jpeg"
+                alt="7Tu0F.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TSNm.jpeg"
+                alt="7TSNm.jpeg"
+                width="400px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Tzv6.jpeg"
+                alt="7Tzv6.jpeg"
+                width="200px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LcRb.jpeg"
+                alt="7LcRb.jpeg"
+                width="200px"
+                height="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            拍毕业照那天，你给我买了花。我们跟朋友一起拍了很多毕业照片，你也给我拍了很多照片<br />
+            <br />
+            在你拍的照片里，我看到了自己的笑容，也看到了你的笑容。<br />
+          </div>
+        </div>
+        <!--8行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            在一起100天的日子也是我们要分开的日子。<br />
+            <br />
+            离开了你，我也离开了笑容。<br />
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7S1J9.jpeg"
+                alt="7S1J9.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7L5T4.jpeg"
+                alt="7L5T4.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TA9O.jpeg"
+                alt="7TA9O.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--9行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/23/78cIb.jpeg"
+                alt="78cIb.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/23/78j9Y.jpeg"
+                alt="78j9Y.jpeg"
+                width="300px"
+                height="300px"
+              />
+
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UrDx.jpeg"
+                alt="7UrDx.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UfSL.jpeg"
+                alt="7UfSL.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UvhM.jpeg"
+                alt="7UvhM.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7L6QA.jpeg"
+                alt="7L6QA.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            经过了短暂的异地后。你下定决心来我的家乡陪我过暑假。我从家里连偷带拿的安排好了我们的第一个小家。<br />
+            <br />
+            我们由于资金不足一度争吵，最终你还是愿意先垫付了房租。我真的很感谢你对我们这段感情的付出。<br />
+          </div>
+        </div>
+        <!--10行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            我找了份暑假工工作，你则在家里备战考公。<br />
+            <br />
+            每天醒来有你在身边的感觉真的很幸福，等我下班了，我们就一起做饭、逛超市、打游戏、骑着电动车带你去打球。<br />
+            <br />
+            这是我人生中最快乐的时光之一。
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7T1Fp.jpeg"
+                alt="7T1Fp.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LDtX.jpeg"
+                alt="7LDtX.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7L9eU.jpeg"
+                alt="7L9eU.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UjXn.jpeg"
+                alt="7UjXn.jpeg"
+                width="225px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7L8mN.jpeg"
+                alt="7L8mN.jpeg"
+                width="533.33px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7T3D6.jpeg"
+                alt="7T3D6.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7U75g.jpeg"
+                alt="7U75g.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UO0Y.jpeg"
+                alt="7UO0Y.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--11行-->
+
+        <div class="flex flex1">
+          <!--左区-->
+          <div
+            style="flex: 2; align-items: center; justify-content: center"
+            class="flex mg20"
+          >
+            <div style="height: 300px" class="baise mgr20 yinying">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7USjr.jpeg"
+                alt="7USjr.jpeg"
+                width="270px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UL5h.jpeg"
+                alt="7UL5h.jpeg"
+                width="250px"
+                height="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi mgr90">
+            <br /><br /><br /><br />
+            白驹过隙，两个月的时间很快，在离别的时刻你还是没忍住，红了眼眶。<br />
+          </div>
+        </div>
+        <!--12行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            我们开始了异地的生活，我去了深圳，你回了上海。
+            每天都要打视频电话，才能稍微安抚彼此思念的心。<br />
+            <br />
+            每天都在网上分享彼此的生活，你给我发的自拍视频我都很喜欢。<br />
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UTde.jpeg"
+                alt="7UTde.jpeg"
+                width="225px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TOxA.jpeg"
+                alt="7TOxA.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/23/78TbM.jpeg"
+                alt="78TbM.jpeg"
+                width="200px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/23/78VBh.jpeg"
+                alt="78VBh.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--13行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7UV7a.jpeg"
+                alt="7UV7a.jpeg"
+                width="168.75px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/23/78zFe.jpeg"
+                alt="78zFe.jpeg"
+                width="168.75px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/23/78ADa.jpeg"
+                alt="78ADa.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LQgF.jpeg"
+                alt="7LQgF.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/23/78RIt.jpeg"
+                alt="78RIt.jpeg"
+                width="400px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Ln39.jpeg"
+                alt="7Ln39.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            在十一的时候，我姐要结婚了，我邀请你来我的老家参加了婚礼。我们度过了一个快乐的小长假。<br />
+            <br />
+            我们在老家玩了几天，又回了郑州，最后去了洛阳。<br />
+          </div>
+        </div>
+        <!--14行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            十一月，我来了上海找你，时隔几个月，我们又重温了校园时候的恋爱。<br />
+            <br />
+            夜晚的操场，熟悉的朋友，味道依旧的饭店以及，身边的你。<br />
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LtO0.jpeg"
+                alt="7LtO0.jpeg"
+                width="300px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LI31.jpeg"
+                alt="7LI31.jpeg"
+                width="533.33px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Lpob.jpeg"
+                alt="7Lpob.jpeg"
+                width="533.33px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LdKg.jpeg"
+                alt="7LdKg.jpeg"
+                width="300px"
+                height="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--15行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7eY8t.jpeg"
+                alt="7eY8t.jpeg"
+                width="168.75px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7eJfa.jpeg"
+                alt="7eJfa.jpeg"
+                width="250px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LYu6.jpeg"
+                alt="7LYu6.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7eotq.jpeg"
+                alt="7eotq.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7eEyC.jpeg"
+                alt="7eEyC.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7edR4.jpeg"
+                alt="7edR4.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LJQp.jpeg"
+                alt="7LJQp.jpeg"
+                width="168.75px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            <br />
+            <br />
+            <br />
+            <br />
+            终于等到了你从上海回来，我们在广州跨年，体验了老广的美食与风土人情。<br />
+          </div>
+        </div>
+        <!--16行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            我们终于不再相隔那么遥远，只是隔海相望。坐上大巴车很快就可以来到你的身边。<br />
+            <br />
+            珠海很小但是很温馨，很高兴能认识你成长的地方。<br />
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LEed.jpeg"
+                alt="7LEed.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7L4rO.jpeg"
+                alt="7L4rO.jpeg"
+                width="168.75px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7extm.jpeg"
+                alt="7extm.jpeg"
+                width="168.75px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7eueF.jpeg"
+                alt="7eueF.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7TXXc.jpeg"
+                alt="7TXXc.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7Lbte.jpeg"
+                alt="7Lbte.jpeg"
+                width="225px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LAya.jpeg"
+                alt="7LAya.jpeg"
+                width="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--17行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LLmM.jpeg"
+                alt="7LLmM.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LV8h.jpeg"
+                alt="7LV8h.jpeg"
+                width="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LUfr.jpeg"
+                alt="7LUfr.jpeg"
+                width="300px"
+              />
+            </div>
+          </div>
+          <!--右区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            过年回来后又迫不及待地来找了你，我们去了上次没去的香山湖公园、野狸岛<br />
+            <br />
+            一起尝试了便利店喝酒挑战。<br />
+            <br />
+          </div>
+        </div>
+        <!--18行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div style="flex: 1" class="mg20 wenbenkuang wenzi">
+            马上你又回上海了，每天被论文压得喘不过来气的你让我很心疼。<br />
+            但在情人节，你还是给我精心挑选了手链，我很喜欢。我也给你买了一个项链。<br />
+            <br />
+
+            你最终完成了论文，也顺利进行了面试，真的很棒！<br />
+
+            为了面试你把头发染黑了，我觉得你黑发也很好看。<br />
+          </div>
+          <!--右区-->
+          <div style="flex: 3" class="flex mg20 scroll-container">
+            <div style="height: 300px" class="baise mgr20 yinying scroll-item">
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LSPx.jpeg"
+                alt="7LSPx.jpeg"
+                width="290px"
+                height="300px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/21/7LFTL.jpeg"
+                alt="7LFTL.jpeg"
+                width="295px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7s0Qd.jpeg"
+                alt="7s0Qd.jpeg"
+                width="135px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7eiUO.jpeg"
+                alt="7eiUO.jpeg"
+                width="225px"
+              />
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7s7ug.jpeg"
+                alt="7s7ug.jpeg"
+                width="135px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--19行-->
+        <div class="flex flex1">
+          <!--左区-->
+          <div class="flex mg20">
+            <div style="height: 300px" class="baise mgr20 yinying">
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7sOeY.jpeg"
+                alt="7sOeY.jpeg"
+                width="300px"
+              />
+            </div>
+          </div>
+          <!--中间-->
+          <div class="mg20 wenbenkuang wenzi">
+            虽然我们也有很多争吵，很多争执，但我们都在慢慢地成长,慢慢变得更加了解对方。<br />
+            <br />
+            那天你问我感觉自己已经变了很多，变得不再是ENFJ了我还会不会喜欢你。<br />
+            当时我说，我觉得你现在这样挺好的。<br />
+            <br />
+            其实我想说，不管你以后会变成什么样，我都希望能成为你身旁的见证人。
+          </div>
+          <!--右区-->
+          <div class="flex mg20">
+            <div style="height: 300px" class="baise mgr20 yinying">
+              <img
+                src="https://i.imgs.ovh/2025/02/24/7sZKb.jpeg"
+                alt="7sZKb.jpeg"
+                width="300px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--20行-->
+        <div class="flex flex1">
+          <div
+            style="height: 300px; width: 300px; margin: 50 auto"
+            class="heart"
+          ></div>
+        </div>
+      </div>
     </div>
-    <div style="
-      max-width: 700xp;
-      margin: 30px auto;
-      padding: 40px;
-      line-hight: 1.7;
-    ">
-    <p>我的名字叫做马启东,今年23岁,来自河南郑州。</p>
-    <p>爱好广泛，喜欢排球、吉他、唱歌、滑板等，用沈腾老师的话来讲就是样样通、样样松。</p>
-    <p>目前就读于深圳大学-光学工程专业，迫于就业压力自学编程计算机，就是这样。
-    </div>
-    <div style="
-     background-color: #f1f1f1;
-     text-align: center;
-     padding: 40px;
-     font-size: 12px;
-    ">
-     <p>我的网站</p>
-     <a href="https://space.bilibili.com/247236709?spm_id_from=333.1007.0.0">B站个人空间</a>
-    </div>
-  </body>  
+  </body>
 </html>
